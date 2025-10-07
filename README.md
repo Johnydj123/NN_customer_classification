@@ -31,7 +31,7 @@ Build the neural network model, train it with CrossEntropyLoss and Adam optimize
 ### Name: DINAGARAN JOHNY S
 ### Register Number: 212223220020
 
-```python
+``` python
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -138,7 +138,7 @@ with torch.no_grad():
 accuracy = accuracy_score(actuals, predictions)
 conf_matrix = confusion_matrix(actuals, predictions)
 class_report = classification_report(actuals, predictions, target_names=[str(i) for i in label_encoder.classes_])
-print("Name:          ")
+print("Name: DINAGARAN JOHNY S")
 print("Register No:       ")
 print(f'Test Accuracy: {accuracy:.2f}%')
 print("Confusion Matrix:\n", conf_matrix)
